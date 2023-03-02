@@ -38,6 +38,7 @@ sudo apt-get install -y vim  libpython3.7-dev  python3-numpy libtbb2 libtbb-dev 
  apt install -y opencl-headers ocl-icd-opencl-dev  libprotobuf-dev
  
 ================================
+
 sudo apt remove libopencv-dev 
 ===============================
 
