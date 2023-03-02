@@ -44,6 +44,7 @@ sudo apt remove libopencv-dev
 
 
 ================================
+
 #1-opencv45-3568-ok.tar.zip
 
 #ok 1 many libs 
@@ -65,6 +66,9 @@ cmake \
 -D BUILD_perf_test=OFF  \
 -D BUILD_opencv_perf_test=OFF  \
 ..
+
+
+====================
 
 #1-opencv45-3568-world.zip
 
