@@ -39,7 +39,7 @@ sudo apt-get install -y vim  libpython3.7-dev  python3-numpy libtbb2 libtbb-dev 
  
 ================================
 sudo apt remove libopencv-dev 
-================================
+===============================
 
 
 ================================
