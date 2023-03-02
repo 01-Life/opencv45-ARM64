@@ -5,6 +5,7 @@ build opencv450 on rk3568 arm64 lib;
 sudo apt update -y
 
 ====================ok
+
 sudo apt install -y  ccache build-essential pkg-config cmake git wget curl unzip   \
 	ffmpeg libavcodec-dev libavformat-dev libavutil-dev libswscale-dev libavresample-dev \
 	 libyaml-cpp-dev libgoogle-glog-dev libgflags-dev  libjpeg8-dev libtiff5-dev  
@@ -38,10 +39,14 @@ sudo apt-get install -y vim  libpython3.7-dev  python3-numpy libtbb2 libtbb-dev 
  
 ================================
 sudo apt remove libopencv-dev 
+================================
 
 
+================================
 #1-opencv45-3568-ok.tar.zip
+
 #ok 1 many libs 
+
 cmake \
 -D CMAKE_BUILD_TYPE=RELEASE  \
 -D CMAKE_INSTALL_PREFIX=/usr/local  \
@@ -61,13 +66,15 @@ cmake \
 ..
 
 #1-opencv45-3568-world.zip
+
 #ok 2 one lib-world	
+
 cmake \
 -D CMAKE_BUILD_TYPE=RELEASE  \
 -D CMAKE_INSTALL_PREFIX=/usr/local  \
 -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-4.5.0/modules    \
    \
-	-D BUILD_opencv_world=ON   \
+    -D BUILD_opencv_world=ON   \
 	\
  -D BUILD_EXAMPLES=ON  \
 -D BUILD_opencv_apps=ON   \
