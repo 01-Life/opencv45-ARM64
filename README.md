@@ -27,16 +27,20 @@ sudo apt install -y  libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev  \
                      libtesseract-dev   libeigen3-dev  liblapack-dev
 					 
 =====not ok
+
 #sudo add-apt-repository "deb http://security.ubuntu.com/ubuntu xenial-security main"
+
 #sudo apt update
 #=libjasper1 libjasper-dev
 
 
 ====ok ubuntu18
+
 sudo apt-get install -y vim  libpython3.7-dev  python3-numpy libtbb2 libtbb-dev   \
    libhdf5-dev libjpeg-dev libjpeg-turbo8-dev libjpeg8-dev libhdf5-serial-dev 
 
-====ok ubuntu18   
+====ok ubuntu18  
+
   apt install -y libgtk-3-dev
  apt install -y opencl-headers ocl-icd-opencl-dev  libprotobuf-dev
  
@@ -124,17 +128,22 @@ cmake \
 
 '--     GTK+:                        YES (ver 3.22.30)
 '--       GThread :                  YES (ver 2.56.4)
+
 '--       GtkGlExt:                  NO
 '--     VTK support:                 NO
 '--
 '--   Media I/O:
 
 '--     ZLib:                        /usr/lib/aarch64-linux-gnu/libz.so (ver 1.2.11)
+
 '--     JPEG:                        /usr/lib/aarch64-linux-gnu/libjpeg.so (ver 80)
+
 '--     WEBP:                        build (ver encoder: 0x020f)
 
 '--     PNG:                         /usr/lib/aarch64-linux-gnu/libpng.so (ver 1.6.34)
+
 '--     TIFF:                        /usr/lib/aarch64-linux-gnu/libtiff.so (ver 42 / 4.0.9)
+
 '--     JPEG 2000:                   OpenJPEG (ver 2.3.0)
 
 '--     OpenEXR:                     build (ver 2.3.0)
@@ -148,6 +157,7 @@ cmake \
 
 '--     DC1394:                      NO
 '--     FFMPEG:                      YES
+
 '--       avcodec:                   YES (57.107.100)
 '--       avformat:                  YES (57.83.100)
 '--       avutil:                    YES (55.78.100)
@@ -171,6 +181,7 @@ cmake \
 '--
 
 '--   OpenCL:                        YES (no extra features)
+
 '--     Include path:                /home/rpdzkj/Documents/opencv-4.5.0/3rdparty/include/opencl/1.2
 '--     Link libraries:              Dynamic load
 '--
